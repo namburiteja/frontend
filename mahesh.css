@@ -32,11 +32,13 @@ h1,h2,h3{
 a{
     color: aliceblue;
 }
-@media (min-width:500px) and (max-width:900px){
+@media (min-width:400px) and (max-width:600px){
     .bobimg{
     background-image: url("./babu.jpg");
     background-size: cover;
     background-attachment: fixed;
+    height:100%;
+    width:100%;
     }
     .list li{
     color: aliceblue;
